@@ -1,0 +1,30 @@
+-- 1
+π_emp_id, first_name, last_name, salary, department_id (σ_department_name='Engineering'(employees))
+-- 2
+π_first_name, salary(employees)
+-- 3
+σ_manager_id IS NOT NULL(employees)
+-- 4
+σ_salary > 60000(employees)
+-- 5
+employees ⨝ department_id = department_id(departments)
+-- 6
+employees × projects
+-- 7
+employees - (σ_manager_id IS NOT NULL(employees))
+-- 8
+departments ⋈ projects
+-- 9
+π_department_name, location(departments)
+-- 10
+σ_budget > 100000(projects)
+-- 11
+π_emp_id, first_name, last_name, salary, department_id (σ_department_name='Sales' ^ manager_id IS NOT NULL(employees))
+-- 12
+π_emp_id, first_name, last_name, salary, department_id (σ_department_name='Engineering'(employees)) ∪ π_emp_id, first_name, last_name, salary, department_id (σ_department_name='Finance'(employees))
+-- 13
+employees - (employees ⨝ employees.emp_id = projects.emp_id(projects))
+-- 14
+employees ⨝ employees.emp_id = projects.emp_id(projects)
+-- 15
+σ_salary < 50000 OR salary > 70000(employees)
