@@ -1,0 +1,10 @@
+-> Create a new folder name 'dbProj'
+-> now create 2 folders named 'Backend' and 'frontend' in this folder
+-> in Backend folder clone repository(facultyFormCloneBackend) - 
+      run command " git clone https://github.com/tanishkagupta2207/facultyFormCloneBackend.git "
+-> in frontend folder clone repository(facultyFormCloneFrontend) - 
+      run command " git clone https://github.com/tanishkagupta2207/facultyFormCloneFrontend.git "
+
+-> now add a file named docker-compose.yaml in dbProj folder
+-> copy the file from the given repository
+-> run the command "docker-compose up" on terminal with 'dbProj' as opened directory
