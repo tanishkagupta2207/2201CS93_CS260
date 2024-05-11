@@ -8,3 +8,9 @@
 -> now add a file named docker-compose.yaml in dbProj folder
 -> copy the file from the given repository
 -> run the command "docker-compose up" on terminal with 'dbProj' as opened directory
+
+open "http://localhost:3000/" 
+
+
+backend repository url : https://github.com/tanishkagupta2207/facultyFormCloneBackend
+frontend repository url: https://github.com/tanishkagupta2207/facultyFormCloneFrontend
