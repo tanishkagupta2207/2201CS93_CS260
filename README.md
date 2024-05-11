@@ -1,2 +1,5 @@
 # DBMS_LAB_CS260_2024
 DBMS_LAB_CS260_2024
+
+
+FOR PROJECT FOLLOW THE STEPS GIVEN IN PROJECT_README AND ALSO COPY THE docker-compose.yaml file as instructed in the project_Readme
